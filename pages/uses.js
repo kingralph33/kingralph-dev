@@ -7,7 +7,7 @@ export default function About(){
             <Head>
                 <title>{siteTitle}: About Me</title>
             </Head>
-            <h1>Future <strong>About</strong> page</h1>
+            <h1>Future <strong>Uses</strong> page</h1>
         </Layout>
     )
 }
