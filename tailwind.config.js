@@ -1,6 +1,6 @@
 module.exports = {
   purge: [],
-  darkMode: 'class', // or 'media' or 'class'
+  darkMode: 'media', // or 'media' or 'class'
   theme: {
     container: {
       center: true,
@@ -8,7 +8,11 @@ module.exports = {
     fontFamily: {
       sans: ['Noto Sans JP', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      colors: {
+        'dark-blue': '#141e30' 
+      },
+    },
   },
   variants: {
     extend: {},
