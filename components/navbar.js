@@ -18,21 +18,21 @@ export default function NavBar(){
                         <a className="md:hover:animate-pulse hover:text-indigo-600 dark:hover:text-gray-600">Uses</a>
                     </Link>
                 </div>
-                <div className="space-x-4 md:text-xl text-sm">
+                <div className="space-x-4">
                     <Link href="https://twitter.com/KingRalph33">
-                        <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="lg:text-sm sm:text-xs hover:text-indigo-600 dark:hover:text-gray-600" icon={['fab', 'twitter']} /></a>
+                        <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm md:text-xl hover:text-indigo-600 dark:hover:text-gray-600" icon={['fab', 'twitter']} /></a>
                     </Link>
                     <Link href="https://www.linkedin.com/in/ralphkingjr/">
-                        <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="lg:text-sm sm:text-xs hover:text-indigo-600 dark:hover:text-gray-600" icon={['fab', 'linkedin']} /></a>
+                        <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm md:text-xl  hover:text-indigo-600 dark:hover:text-gray-600" icon={['fab', 'linkedin']} /></a>
                     </Link>
                     <Link href="https://github.com/kingralph33">
-                        <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="lg:text-sm sm:text-xs hover:text-indigo-600 dark:hover:text-gray-600" icon={['fab', 'github']} /></a>
+                        <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm md:text-xl hover:text-indigo-600 dark:hover:text-gray-600" icon={['fab', 'github']} /></a>
                     </Link>
                     <Link href="https://gitlab.com/kingralph33">
-                        <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="lg:text-sm sm:text-xs hover:text-indigo-500 dark:hover:text-gray-600" icon={['fab', 'gitlab']} /></a>
+                        <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm md:text-xl hover:text-indigo-500 dark:hover:text-gray-600" icon={['fab', 'gitlab']} /></a>
                     </Link>
                     <Link href="mailto:ralph@kingralph.dev">
-                        <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="lg:text-sm sm:text-xs hover:text-indigo-600 dark:hover:text-gray-600" icon="envelope"  /></a>
+                        <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm md:text-xl hover:text-indigo-600 dark:hover:text-gray-600" icon="envelope"  /></a>
                     </Link>
                 </div>
             </div>

@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import Layout, {siteTitle} from '../components/layout'
+import {siteTitle} from '../components/Layout'
 
 export default function About(){
     return (
-        <Layout>
+        <>
             <Head>
                 <title>{siteTitle}: About Me</title>
             </Head>
@@ -162,6 +162,6 @@ export default function About(){
 
                 Vestibulum vehicula nulla eu felis placerat, quis sagittis odio fringilla. Duis convallis lorem at tortor tincidunt, ut finibus sem venenatis. In eget augue ut eros venenatis iaculis at non felis. Aliquam erat volutpat. Integer egestas, felis sed viverra euismod, mi neque fermentum lectus, eu posuere massa quam ac ipsum. Suspendisse enim nisi, congue ac ultrices sed, efficitur in purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus gravida auctor elit, ut auctor nulla. Maecenas eget justo sed mauris bibendum dignissim.
             </p>
-        </Layout>
+        </>
     )
 }

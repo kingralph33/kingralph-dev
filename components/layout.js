@@ -1,7 +1,6 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import NavBar from './navbar'
-import Footer from './footer'
+import NavBar from './Navbar'
+import Footer from './Footer'
 
 // https://stackoverflow.com/questions/56334381/why-my-font-awesome-icons-are-being-displayed-big-at-first-and-then-updated-to-t
 // The following import prevents a Font Awesome icon server-side rendering bug,
@@ -11,7 +10,6 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import { config } from '@fortawesome/fontawesome-svg-core';
 config.autoAddCss = false; /* eslint-disable import/first */
 
-const name = 'Ralph King Jr'
 export const siteTitle = 'KingRalph.dev'
 
 export default function Layout({children}){
@@ -22,10 +20,8 @@ export default function Layout({children}){
                     <link rel="icon" href="../public/images/ralph_king_memoji.png"/>
                     <link rel="preconnect" href="https://fonts.gstatic.com"/> 
                     <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@1,400;1,700&display=swap" rel="stylesheet"/>
-                    <meta
-                        name="description"
-                        content="Personal Site for Ralph King Jr"
-                    />
+                    <meta name="viewport" content="width=device-width, initial-scale=1" />
+                    <meta charSet="utf-8" />
                     <meta name="og:title" content={siteTitle} />
                 </Head>
                 <NavBar />
