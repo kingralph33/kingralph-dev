@@ -16,8 +16,8 @@ export const siteTitle = 'KingRalph.dev'
 
 export default function Layout({children}){
     return (
-        <div className="bg-white dark:bg-dark-blue">
-            <div className="container flex flex-col min-h-screen mx-auto max-w-screen-sm md:max-w-screen-md md:p-0 lg:max-w-screen-lg xl:max-w-screen-xl ">
+        <div className="bg-gray-50 dark:bg-dark-blue">
+            <div className="container flex flex-col min-h-screen mx-auto">
                 <Head>
                     <link rel="icon" href="../public/images/ralph_king_memoji.png"/>
                     <link rel="preconnect" href="https://fonts.gstatic.com"/> 
@@ -29,7 +29,7 @@ export default function Layout({children}){
                     <meta name="og:title" content={siteTitle} />
                 </Head>
                 <NavBar />
-                <main className="flex-grow p-4">{children}</main>
+                <main className="flex-grow mt-4 p-4">{children}</main>
                 <Footer/>
             </div>
         </div>

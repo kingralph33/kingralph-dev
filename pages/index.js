@@ -9,31 +9,34 @@ export default function Home() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className="flex flex-col items-center space-y-4 dark:text-gray-200">
-        <img
-          src="/images/profile.png"
-          className="rounded-full h-auto w-2/4"
-          alt="Picture of Ralph King Jr"
-        />
-        <h1 className="text-2xl">Ralph King Jr</h1>
-        <h2 className="text-xl">Welcome to my personal site. It's a work in progress</h2>
-        <div className="space-x-4 text-sm">
+      <section className="md:grid md:grid-cols-2 items-center space-y-4 dark:text-gray-200">
+        <div className="order-last px-4">
+          <img
+            src="/images/profile.png"
+            className="shadow-lg max-w-full h-auto align-middle border-none"
+            alt="Picture of Ralph King Jr"
+          />
+        </div>
+        <div className="text-center space-y-4">
+          <h2 className="text-xl">Welcome to my site.</h2>
+          <div className="space-x-4 text-4xl">
                 <Link href="https://twitter.com/KingRalph33">
-                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm" icon={['fab', 'twitter']} size='lg' /></a>
+                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm" icon={['fab', 'twitter']} /></a>
                 </Link>
                 <Link href="https://www.linkedin.com/in/ralphkingjr/">
-                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm" icon={['fab', 'linkedin']} size='lg' /></a>
+                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm" icon={['fab', 'linkedin']} /></a>
                 </Link>
                 <Link href="https://github.com/kingralph33">
-                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm" icon={['fab', 'github']} size='lg' /></a>
+                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm" icon={['fab', 'github']} /></a>
                 </Link>
                 <Link href="https://gitlab.com/kingralph33">
-                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm" icon={['fab', 'gitlab']} size='lg' /></a>
+                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm" icon={['fab', 'gitlab']} /></a>
                 </Link>
                 <Link href="mailto:ralph@kingralph.dev">
-                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm" icon="envelope" size='lg' /></a>
+                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm" icon="envelope" /></a>
                 </Link>
             </div>
+        </div>
       </section>
     </Layout>
   )
