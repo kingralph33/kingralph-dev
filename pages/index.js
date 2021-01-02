@@ -21,19 +21,19 @@ export default function Home() {
           <h2 className="text-xl">Welcome to my site.</h2>
           <div className="space-x-4 text-4xl">
                 <Link href="https://twitter.com/KingRalph33">
-                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm" icon={['fab', 'twitter']} /></a>
+                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm hover:text-indigo-600 dark:hover:text-gray-600" icon={['fab', 'twitter']} /></a>
                 </Link>
                 <Link href="https://www.linkedin.com/in/ralphkingjr/">
-                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm" icon={['fab', 'linkedin']} /></a>
+                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm hover:text-indigo-600 dark:hover:text-gray-600" icon={['fab', 'linkedin']} /></a>
                 </Link>
                 <Link href="https://github.com/kingralph33">
-                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm" icon={['fab', 'github']} /></a>
+                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm hover:text-indigo-600 dark:hover:text-gray-600" icon={['fab', 'github']} /></a>
                 </Link>
                 <Link href="https://gitlab.com/kingralph33">
-                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm" icon={['fab', 'gitlab']} /></a>
+                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm hover:text-indigo-600 dark:hover:text-gray-600" icon={['fab', 'gitlab']} /></a>
                 </Link>
                 <Link href="mailto:ralph@kingralph.dev">
-                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm" icon="envelope" /></a>
+                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-sm hover:text-indigo-600 dark:hover:text-gray-600" icon="envelope" /></a>
                 </Link>
             </div>
         </div>

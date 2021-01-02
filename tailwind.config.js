@@ -6,7 +6,7 @@ module.exports = {
       center: true,
     },
     fontFamily: {
-      sans: ['Noto Sans JP', 'sans-serif'],
+      sans: ['Cantarell', 'sans-serif'],
     },
     extend: {
       colors: {
@@ -15,7 +15,10 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      animation: ['hover'],
+      rotate: ['hover'],
+    },
   },
   plugins: [],
 }

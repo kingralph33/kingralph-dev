@@ -21,7 +21,7 @@ export default function Layout({children}){
                 <Head>
                     <link rel="icon" href="../public/images/ralph_king_memoji.png"/>
                     <link rel="preconnect" href="https://fonts.gstatic.com"/> 
-                    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"/>
+                    <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@1,400;1,700&display=swap" rel="stylesheet"/>
                     <meta
                         name="description"
                         content="Personal Site for Ralph King Jr"
