@@ -18,22 +18,22 @@ export default function Home() {
           />
         </div>
         <div className="text-center space-y-4">
-          <h2 className="text-2xl">Welcome to my site.</h2>
+          <h2 className="text-2xl text-gray-900 dark:text-gray-100">Welcome to my site.</h2>
           <div className="space-x-4">
                 <Link href="https://twitter.com/KingRalph33">
-                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-2xl md:text-4xl hover:text-indigo-600 dark:hover:text-gray-600" icon={['fab', 'twitter']} /></a>
+                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-2xl md:text-4xl text-gray-900 dark:text-gray-100 hover:text-indigo-600 dark:hover:text-gray-600" icon={['fab', 'twitter']} /></a>
                 </Link>
                 <Link href="https://www.linkedin.com/in/ralphkingjr/">
-                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-2xl md:text-4xl hover:text-indigo-600 dark:hover:text-gray-600" icon={['fab', 'linkedin']} /></a>
+                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-2xl md:text-4xl text-gray-900 dark:text-gray-100 hover:text-indigo-600 dark:hover:text-gray-600" icon={['fab', 'linkedin']} /></a>
                 </Link>
                 <Link href="https://github.com/kingralph33">
-                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-2xl md:text-4xl hover:text-indigo-600 dark:hover:text-gray-600" icon={['fab', 'github']} /></a>
+                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-2xl md:text-4xl text-gray-900 dark:text-gray-100 hover:text-indigo-600 dark:hover:text-gray-600" icon={['fab', 'github']} /></a>
                 </Link>
                 <Link href="https://gitlab.com/kingralph33">
-                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-2xl md:text-4xl hover:text-indigo-600 dark:hover:text-gray-600" icon={['fab', 'gitlab']} /></a>
+                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-2xl md:text-4xl text-gray-900 dark:text-gray-100 hover:text-indigo-600 dark:hover:text-gray-600" icon={['fab', 'gitlab']} /></a>
                 </Link>
                 <Link href="mailto:ralph@kingralph.dev">
-                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-2xl md:text-4xl hover:text-indigo-600 dark:hover:text-gray-600" icon="envelope" /></a>
+                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="text-2xl md:text-4xl text-gray-900 dark:text-gray-100 hover:text-indigo-600 dark:hover:text-gray-600" icon="envelope" /></a>
                 </Link>
             </div>
         </div>
