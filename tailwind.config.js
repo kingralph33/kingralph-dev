@@ -1,5 +1,9 @@
 module.exports = {
-  purge: [],
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
+  },
+  purge: false,
   darkMode: 'media', // or 'media' or 'class'
   theme: {
     container: {
