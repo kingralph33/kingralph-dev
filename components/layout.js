@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import NavBar from './Navbar'
-import Footer from './Footer'
+import NavBar from './navbar'
+import Footer from './footer'
 
 // https://stackoverflow.com/questions/56334381/why-my-font-awesome-icons-are-being-displayed-big-at-first-and-then-updated-to-t
 // The following import prevents a Font Awesome icon server-side rendering bug,

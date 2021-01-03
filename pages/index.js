@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import {siteTitle} from '../components/Layout'
+import {siteTitle} from '../components/layout'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Home() {
