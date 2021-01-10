@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
+import { motion } from "framer-motion"
 import {siteTitle} from '../components/layout'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -25,8 +26,68 @@ export default function Home() {
           />
         </div>
         <div className="text-center space-y-4">
-          <h2 className="text-gray-900 dark:text-gray-100 font-semibold tracking-wide">Welcome to my site.</h2>
-          <div className="space-x-4">
+          <div className="flex flex-row place-content-center">
+              <motion.h1 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ type: "spring", bounce: 0.50, delay: 0.5}}
+              // Dragging
+              drag
+              dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
+              dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
+              dragElastic={0.5}
+              whileTap={{ cursor: "grabbing" }}
+              className="text-gray-900 dark:text-gray-100 font-semibold pr-3">
+                Welcome 
+              </motion.h1>
+
+              <motion.h1 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ type: "spring", bounce: 0.50, delay: 0.6}}
+              // Dragging
+              drag
+              dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
+              dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
+              dragElastic={0.5}
+              whileTap={{ cursor: "grabbing" }}
+              className="text-gray-900 dark:text-gray-100 font-semibold pr-3">
+                to {" "}
+              </motion.h1>
+
+              <motion.h1 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ type: "spring", bounce: 0.50, delay: 0.7}}
+              // Dragging
+              drag
+              dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
+              dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
+              dragElastic={0.5}
+              whileTap={{ cursor: "grabbing" }}
+              className="text-gray-900 dark:text-gray-100 font-semibold pr-3">
+                my {" "}
+              </motion.h1>
+
+              <motion.h1 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ type: "spring", bounce: 0.50, delay: 0.8}}
+              // Dragging
+              drag
+              dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
+              dragTransition={{ bounceStiffness: 600, bounceDamping: 20 }}
+              dragElastic={0.5}
+              whileTap={{ cursor: "grabbing" }}
+              className="text-gray-900 dark:text-gray-100 font-semibold">
+                site
+              </motion.h1>
+          </div>
+          <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ type: "spring", bounce: 0.50, delay: 0.5 }}
+          className="space-x-4">
                 <Link href="https://twitter.com/KingRalph33">
                     <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon={['fab', 'twitter']} size="2x"/></a>
                 </Link>
@@ -42,7 +103,7 @@ export default function Home() {
                 <Link href="mailto:ralph@kingralph.dev">
                     <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon="envelope" size="2x" /></a>
                 </Link>
-            </div>
+            </motion.div>
         </div>
       </section>
     </>
