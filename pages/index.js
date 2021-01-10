@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
 import { motion } from "framer-motion"
 import {siteTitle} from '../components/layout'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -13,16 +12,10 @@ export default function Home() {
       </Head>
       <section className="md:grid md:grid-cols-2 items-center space-y-4 dark:text-gray-200">
         <div className="order-last max-w-screen-sm md:max-w-lg h-auto">
-          <Image
+          <img
             alt={`Picture of Ralph King Jr`}
             src={`/images/profile.png`}
             className={`rounded-lg`}
-            width={640}
-            height={478}
-            layout={`responsive`}
-            objectFit={`cover`}
-            quality={100}
-            priority
           />
         </div>
         <div className="text-center space-y-4">
