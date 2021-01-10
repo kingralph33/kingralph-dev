@@ -25,10 +25,10 @@ export default function Home() {
           />
         </div>
         <div className="text-center space-y-4">
-          <h2 className="text-2xl text-gray-900 dark:text-gray-100">Welcome to my site.</h2>
+          <h2 className="text-gray-900 dark:text-gray-100 font-semibold tracking-wide">Welcome to my site.</h2>
           <div className="space-x-4">
                 <Link href="https://twitter.com/KingRalph33">
-                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon={['fab', 'twitter']} size="2x" /></a>
+                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon={['fab', 'twitter']} size="2x"/></a>
                 </Link>
                 <Link href="https://www.linkedin.com/in/ralphkingjr/">
                     <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon={['fab', 'linkedin']} size="2x" /></a>

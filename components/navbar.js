@@ -7,7 +7,7 @@ export default function NavBar(){
             <div className="flex flex-col md:flex-row md:space-x-4 space-y-2 md:space-y-0 items-center md:justify-between">
                 <div className="">
                     <Link href="/">
-                        <a className="text-3xl md:text-4xl text-gray-900 dark:text-gray-100 font-black hover:text-indigo-400 dark:hover:text-gray-600">King Ralph</a>
+                        <a className="text-3xl md:text-4xl text-gray-900 dark:text-gray-100 font-black hover:text-indigo-400 dark:hover:text-gray-600 text-shadow dark:text-shadow-wht">King Ralph</a>
                     </Link>
                 </div>
                 <div className="space-x-4 hidden">
