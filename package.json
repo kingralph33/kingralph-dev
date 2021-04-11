@@ -1,6 +1,6 @@
 {
   "name": "king-ralph-dev",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,20 +8,20 @@
     "start": "next start"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.32",
-    "@fortawesome/free-brands-svg-icons": "^5.15.1",
-    "@fortawesome/free-regular-svg-icons": "^5.15.1",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.14",
-    "autoprefixer": "^10.2.1",
-    "framer-motion": "^3.2.0",
-    "next": "10.0.5",
-    "postcss": "^8.2.4",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "tailwindcss": "^2.0.2"
+    "autoprefixer": "^10.2.5",
+    "framer-motion": "^4.1.3",
+    "next": "^10.1.3",
+    "postcss": "^8.2.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^2.1.1"
   },
   "devDependencies": {
-    "postcss-import": "^14.0.0"
+    "postcss-import": "^14.0.1"
   }
 }
