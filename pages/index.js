@@ -90,9 +90,6 @@ export default function Home() {
                 <Link href="https://github.com/kingralph33">
                     <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon={['fab', 'github']} size="2x" /></a>
                 </Link>
-                <Link href="https://gitlab.com/kingralph33">
-                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon={['fab', 'gitlab']} size="2x" /></a>
-                </Link>
                 <Link href="mailto:ralph@kingralph.dev">
                     <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon="envelope" size="2x" /></a>
                 </Link>
