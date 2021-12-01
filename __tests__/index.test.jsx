@@ -8,12 +8,12 @@ import Home from '../pages/index'
 
 
 describe('Home', () => {
-    it('renders a site title', () => {
+    it('renders profile image', () => {
         render(<Home />)
 
-        const siteTitle = screen.getByTitle('KingRalph.dev')
+        const profileImg = screen.getByRole('img').to
 
-        expect(siteTitle).toBeInTheDocument()
+        expect(profileImg).toBeInTheDocument()
     })
 
 })
