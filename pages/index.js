@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>{siteTitle}</title>
+        <title data-cy="site-title">{siteTitle}</title>
       </Head>
       <section className="md:grid md:grid-cols-2 items-center space-y-4 dark:text-gray-200">
         <div className="order-last max-w-screen-sm md:max-w-lg h-auto">
@@ -16,6 +16,7 @@ export default function Home() {
             alt={`Picture of Ralph King Jr`}
             src={`/images/profile.png`}
             className={`rounded-lg`}
+            data-cy="homepage-profileImage"
           />
         </div>
         <div className="text-center space-y-4">
@@ -82,19 +83,19 @@ export default function Home() {
           transition={{ type: "spring", bounce: 0.50, delay: 0.5 }}
           className="space-x-4">
                 <Link href="https://twitter.com/KingRalph33">
-                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon={['fab', 'twitter']} size="2x"/></a>
+              <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon={['fab', 'twitter']} size="2x" data-cy="homepage-twitter" /></a>
                 </Link>
                 <Link href="https://www.linkedin.com/in/ralphkingjr/">
-                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon={['fab', 'linkedin']} size="2x" /></a>
+              <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon={['fab', 'linkedin']} size="2x" data-cy="homepage-linkedin" /></a>
                 </Link>
                 <Link href="https://github.com/kingralph33">
-                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon={['fab', 'github']} size="2x" /></a>
+              <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon={['fab', 'github']} size="2x" data-cy="homepage-github" /></a>
                 </Link>
                 <Link href="https://gitlab.com/kingralph33">
-                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon={['fab', 'gitlab']} size="2x" /></a>
+              <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon={['fab', 'gitlab']} size="2x" data-cy="homepage-gitlab" /></a>
                 </Link>
                 <Link href="mailto:ralph@kingralph.dev">
-                    <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon="envelope" size="2x" /></a>
+              <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon="envelope" size="2x" data-cy="homepage-email" /></a>
                 </Link>
             </motion.div>
         </div>

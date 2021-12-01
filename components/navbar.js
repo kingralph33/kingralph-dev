@@ -12,19 +12,19 @@ export default function NavBar(){
                 </div>
                 <div className="space-x-4 hidden">
                     <Link href="https://www.linkedin.com/in/ralphkingjr/">
-                        <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon={['fab', 'linkedin']} size="lg" /></a>
+                        <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon={['fab', 'linkedin']} size="lg" data-cy="nav-linkedin" /></a>
                     </Link>
                     <Link href="https://github.com/kingralph33">
-                        <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon={['fab', 'github']} size="lg" /></a>
+                        <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon={['fab', 'github']} size="lg" data-cy="nav-github" /></a>
                     </Link>
                     <Link href="https://gitlab.com/kingralph33">
-                        <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon={['fab', 'gitlab']} size="lg" /></a>
+                        <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon={['fab', 'gitlab']} size="lg" data-cy="nav-gitlab" /></a>
                     </Link>
                     <Link href="https://twitter.com/KingRalph33">
-                        <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon={['fab', 'twitter']} size="lg" /></a>
+                        <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon={['fab', 'twitter']} size="lg" data-cy="nav-twitter" /></a>
                     </Link>
                     <Link href="mailto:ralph@kingralph.dev">
-                        <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon="envelope"  size="lg" /></a>
+                        <a target="_blank" rel="noreferrer"><FontAwesomeIcon className="social-icons" icon="envelope" size="lg" data-cy="nav-email" /></a>
                     </Link>
                 </div>
             </div>
