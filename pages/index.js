@@ -1,20 +1,36 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
+import profilePic from '../public/images/profile.png'
 import { motion } from "framer-motion"
-import {siteTitle} from '../components/layout'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+
+// https://stackoverflow.com/questions/56334381/why-my-font-awesome-icons-are-being-displayed-big-at-first-and-then-updated-to-t
+// The following import prevents a Font Awesome icon server-side rendering bug,
+// where the icons flash from a very large icon down to a properly sized one:
+import '@fortawesome/fontawesome-svg-core/styles.css';
+// Prevent fontawesome from adding its CSS since we did it manually above:
+import { config } from '@fortawesome/fontawesome-svg-core';
+config.autoAddCss = false; /* eslint-disable import/first */
+
+export const siteTitle = 'KingRalph.dev'
 
 export default function Home() {
   return (
     <>
       <Head>
         <title data-cy="site-title">{siteTitle}</title>
+        <link rel="icon" href="../public/images/ralph_king_memoji.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charSet="utf-8" />
+        <meta name="og:title" content={siteTitle} />
       </Head>
       <section className="md:grid md:grid-cols-2 items-center space-y-4 dark:text-gray-200">
         <div className="order-last max-w-screen-sm md:max-w-lg h-auto">
-          <img
+          <Image
+            src={profilePic}
             alt={`Picture of Ralph King Jr`}
-            src={`/images/profile.png`}
             className={`rounded-lg`}
             data-cy="homepage-profileImage"
           />
