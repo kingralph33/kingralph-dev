@@ -1,5 +1,3 @@
-"use strict";
-
 import "../styles/globals.css";
 import Layout from "../components/layout";
 import { library } from "@fortawesome/fontawesome-svg-core";
