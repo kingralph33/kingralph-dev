@@ -1,3 +1,5 @@
+'use strict';
+
 import NavBar from './navbar'
 import Footer from './footer'
 

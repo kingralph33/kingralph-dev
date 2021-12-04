@@ -1,6 +1,9 @@
 /* eslint-disable */
 // Disable ESLint to prevent failing linting inside the Next.js repo.
 
+'use strict';
+
+
 describe('Homepage content', () => {
     beforeEach(() => {
         cy.visit('/')
