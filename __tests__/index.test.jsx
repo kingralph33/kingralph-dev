@@ -2,21 +2,18 @@
  * @jest-environment jsdom
  */
 
-'use strict';
+"use strict";
 
+import React from "react";
+import { render, screen } from "@testing-library/react";
+import Home from "../pages/index";
+import profilePic from "../public/images/profile.png";
 
-import React from 'react'
-import { render, screen } from '@testing-library/react'
-import Home from '../pages/index'
+describe("Home", () => {
+  it("renders profile image", () => {
+    render(<Home />);
 
-
-describe('Home', () => {
-    it('renders profile image', () => {
-        render(<Home />)
-
-        const profileImg = screen.getByRole('img').to
-
-        expect(profileImg).toBeInTheDocument()
-    })
-
-})
+    const profileImage = screen.getByAltText();
+    expect(getByAltText);
+  });
+});
