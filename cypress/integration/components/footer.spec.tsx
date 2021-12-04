@@ -1,6 +1,4 @@
-/* eslint-disable */
-// Disable ESLint to prevent failing linting inside the Next.js repo.
-
+import Footer from "../../../components/footer";
 
 describe("Footer content", () => {
   beforeEach(() => {
@@ -11,3 +9,5 @@ describe("Footer content", () => {
     cy.get("[data-cy=footer-message]").should("be.visible");
   });
 });
+
+export { };

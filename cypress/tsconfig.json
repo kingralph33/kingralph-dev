@@ -1,15 +1,22 @@
 {
+    "extends": "../tsconfig.json",
     "compilerOptions": {
-        "target": "es5",
+        "target": "es2021",
         "lib": [
-            "es5",
-            "dom"
+            "dom",
+            "dom.iterable",
+            "esnext",
+            "es2021"
         ],
         "types": [
-            "cypress"
+            "cypress",
         ]
     },
     "include": [
-        "**/*.ts"
-    ]
+        "node_modules/cypress",
+        "next-env.d.ts",
+        "**/*.ts",
+        "**/*.tsx"
+    ],
+    "exclude": [],
 }

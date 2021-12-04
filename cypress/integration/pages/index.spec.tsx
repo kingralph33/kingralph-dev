@@ -1,7 +1,4 @@
-/* eslint-disable */
-// Disable ESLint to prevent failing linting inside the Next.js repo.
-
-"use strict";
+import Layout from '../../../components/layout'
 
 describe("Homepage content", () => {
   beforeEach(() => {
@@ -29,3 +26,5 @@ describe("Homepage content", () => {
     cy.get("[data-cy=homepage-email]").should("be.visible");
   });
 });
+
+export { };

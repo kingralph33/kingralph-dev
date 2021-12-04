@@ -1,5 +1,4 @@
-/* eslint-disable */
-// Disable ESLint to prevent failing linting inside the Next.js repo.
+import NavBar from "../../../components/navbar";
 
 describe("Navbar content", () => {
   beforeEach(() => {
@@ -10,3 +9,5 @@ describe("Navbar content", () => {
     cy.get("[data-cy=logo]").click;
   });
 });
+
+export { };
