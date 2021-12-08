@@ -9,8 +9,9 @@
             "es2021"
         ],
         "types": [
-            "cypress",
-        ]
+            "cypress"
+        ],
+        "isolatedModules": false,
     },
     "include": [
         "node_modules/cypress",
