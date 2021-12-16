@@ -8,7 +8,11 @@
 		"start": "next start",
 		"cypress": "cypress open",
 		"test": "jest --watch",
-		"lint": "next lint"
+		"lint": "next lint",
+		"prettier": "prettier --write .",
+		"prettier-check": "prettier -c .",
+		"stylelint": "npx stylelint --fix '**/*.{css,scss,sass}'",
+		"stylelint-check": "stylelint-config-prettier-check"
 	},
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "^1.2.36",
