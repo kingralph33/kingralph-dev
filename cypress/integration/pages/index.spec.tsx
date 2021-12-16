@@ -30,4 +30,4 @@ describe('Homepage content', () => {
 	});
 });
 
-export { };
+export {};

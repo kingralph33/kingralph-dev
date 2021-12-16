@@ -21,4 +21,4 @@ module.exports = (on, config) => {
 	// `config` is the resolved Cypress config
 };
 
-export { };
+export {};

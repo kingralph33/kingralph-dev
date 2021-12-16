@@ -13,4 +13,4 @@ describe('Navbar content', () => {
 	});
 });
 
-export { };
+export {};

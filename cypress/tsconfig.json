@@ -1,23 +1,11 @@
 {
-    "extends": "../tsconfig.json",
-    "compilerOptions": {
-        "target": "es2021",
-        "lib": [
-            "dom",
-            "dom.iterable",
-            "esnext",
-            "es2021"
-        ],
-        "types": [
-            "cypress"
-        ],
-        "isolatedModules": false,
-    },
-    "include": [
-        "node_modules/cypress",
-        "next-env.d.ts",
-        "**/*.ts",
-        "**/*.tsx"
-    ],
-    "exclude": [],
+	"extends": "../tsconfig.json",
+	"compilerOptions": {
+		"target": "es2021",
+		"lib": ["dom", "dom.iterable", "esnext", "es2021"],
+		"types": ["cypress"],
+		"isolatedModules": false
+	},
+	"include": ["node_modules/cypress", "next-env.d.ts", "**/*.ts", "**/*.tsx"],
+	"exclude": []
 }
