@@ -1,7 +1,7 @@
 {
 	"display": "Node 16",
 	"compilerOptions": {
-		"target": "es2021",
+		"target": "es5",
 		"lib": ["dom", "dom.iterable", "esnext", "es2021"],
 		"allowJs": true,
 		"skipLibCheck": true,
