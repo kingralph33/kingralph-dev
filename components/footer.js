@@ -4,8 +4,8 @@ export default function Footer() {
     };
 
     return (
-        <footer className="h-10 text-2xl text-center text-gray-900 dark:text-gray-100">
-            <small>&copy; Copyright {getCurrentYear()}, King Ralph LLC</small>
+        <footer className="h-10 text-lg text-center text-gray-900 dark:text-gray-100">
+            <small>&copy; 2020 - {getCurrentYear()} Ralph King. All rights reserved.</small>
         </footer>
     );
 }
