@@ -17,9 +17,7 @@ export default function Layout({children}){
         <div className="bg-gray-50 dark:bg-dark-blue">
             <div className="container flex flex-col min-h-screen mx-auto">
                 <Head>
-                    <link rel="icon" href="../public/images/ralph_king_memoji.png"/>
-                    <link rel="preconnect" href="https://fonts.gstatic.com"/>
-                    <link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@1,400;1,700&display=swap" rel="stylesheet"/> 
+ 
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <meta charSet="utf-8" />
                     <meta name="og:title" content={siteTitle} />
