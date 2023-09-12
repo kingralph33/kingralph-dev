@@ -1,11 +1,11 @@
 'use strict';
 
-import Head from 'next/head';
-import Link from 'next/link';
-import Image from 'next/image';
-import profilePic from '../public/images/profile.png';
-import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { motion } from 'framer-motion';
+import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
+import profilePic from '../public/images/profile.png';
 
 // https://stackoverflow.com/questions/56334381/why-my-font-awesome-icons-are-being-displayed-big-at-first-and-then-updated-to-t
 // The following import prevents a Font Awesome icon server-side rendering bug,
@@ -111,7 +111,6 @@ export default function Home() {
 									className='social-icons'
 									icon={['fab', 'twitter']}
 									size='2x'
-									data-cy='homepage-twitter'
 								/>
 							</a>
 						</Link>
@@ -121,7 +120,6 @@ export default function Home() {
 									className='social-icons'
 									icon={['fab', 'linkedin']}
 									size='2x'
-									data-cy='homepage-linkedin'
 								/>
 							</a>
 						</Link>
@@ -131,17 +129,6 @@ export default function Home() {
 									className='social-icons'
 									icon={['fab', 'github']}
 									size='2x'
-									data-cy='homepage-github'
-								/>
-							</a>
-						</Link>
-						<Link href='https://gitlab.com/kingralph33'>
-							<a target='_blank' rel='noreferrer'>
-								<FontAwesomeIcon
-									className='social-icons'
-									icon={['fab', 'gitlab']}
-									size='2x'
-									data-cy='homepage-gitlab'
 								/>
 							</a>
 						</Link>
@@ -151,7 +138,6 @@ export default function Home() {
 									className='social-icons'
 									icon='envelope'
 									size='2x'
-									data-cy='homepage-email'
 								/>
 							</a>
 						</Link>
